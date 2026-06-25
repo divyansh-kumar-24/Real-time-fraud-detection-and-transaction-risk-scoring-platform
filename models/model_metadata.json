@@ -1,0 +1,49 @@
+{
+    "dataset": "Kaggle Credit Card Fraud Detection",
+    "total_samples": 284807,
+    "fraud_samples": 492,
+    "legitimate_samples": 284315,
+    "models": [
+        "Logistic Regression",
+        "Random Forest",
+        "XGBoost"
+    ],
+    "ensemble_type": "Weighted Voting",
+    "weights": {
+        "Logistic Regression": 0.2,
+        "Random Forest": 0.3,
+        "XGBoost": 0.5
+    },
+    "features": [
+        "Time",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5",
+        "V6",
+        "V7",
+        "V8",
+        "V9",
+        "V10",
+        "V11",
+        "V12",
+        "V13",
+        "V14",
+        "V15",
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20",
+        "V21",
+        "V22",
+        "V23",
+        "V24",
+        "V25",
+        "V26",
+        "V27",
+        "V28",
+        "Amount"
+    ]
+}
